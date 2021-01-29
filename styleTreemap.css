@@ -1,0 +1,52 @@
+html{
+    min-height: 100%
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
+    background-color: cornsilk;
+}
+
+svg{
+    background-color: none;
+}
+
+h1{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 2.8vw;
+    background-color: cornsilk;  
+}
+
+#description{
+    margin-bottom: 1vh;
+    font-kerning: auto;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 1.8vw;
+    background-color: cornsilk;
+
+}
+
+#canvas{
+    min-width: 1500;
+    min-height: 500;
+}
+
+
+    
+
+/* could make the tooltip volatile and float accordinly with mouseover but its easier on the eye with this static form I believe*/ */
+ #tooltip {
+    visibility: hidden;
+    background-color: none;
+    margin: 2px;
+    padding: 5px;
+    color: black;
+    font-kerning: auto;
+    font-family:'Times New Roman', Times, serif;
+ }
+
+
